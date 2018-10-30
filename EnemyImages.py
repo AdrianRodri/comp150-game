@@ -2,7 +2,7 @@ import pygame
 
 '''
 -------------------------------------------------------------------------------
-Image file dictionary
+Image file dictionary (to be merged with the main one)
 -------------------------------------------------------------------------------
 '''
 
@@ -13,6 +13,7 @@ EnemyImagesDict['upper_half'] = pygame.image.load(
     'Resources/Visual/Textures/Enemies/UpperHalf/2_monster_upperhalf.png'
 
                                                   )
+
 EnemyImagesDict['lower_half'] = pygame.image.load(
     'Resources/Visual/Textures/Enemies/LowerHalf/1_monster_lowerhalf.png',
     'Resources/Visual/Textures/Enemies/LowerHalf/2_monster_lowerhalf.png'
