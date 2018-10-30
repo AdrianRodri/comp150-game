@@ -2,22 +2,20 @@ import pygame
 import random
 from AudoFiles import *
 
-
+'''
+-------------------------------------------------------------------------------
+Envoiromental /background music on a loop
+-------------------------------------------------------------------------------
+'''
 def music_loop():
     pygame.mixer_music.load()
     pygame.mixer_music.play(-1)
-'''
-def pause():
-    pygame.mixer_music.pause()
-    pause_text = pygame.font.SysFont('Helvetica', 24)
-    TextSurf, TextRect =
 
-def unpause():
-    global pause()
-    pygame.mixer_music.unpause()
-    pause = False ?????
 '''
-
+-------------------------------------------------------------------------------
+All other sounds
+-------------------------------------------------------------------------------
+'''
 
 def sword_swing():
     pygame.mixer_music.pause()

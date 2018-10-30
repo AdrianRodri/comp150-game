@@ -1,4 +1,6 @@
 import pygame
+from PIL import Image
+
 # Classes used by Entity type Objects
 
 
